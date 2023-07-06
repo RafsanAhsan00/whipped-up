@@ -4,5 +4,58 @@
 }
 .logo{
     width: 200px;
-    height: 200px;
+    padding-right: 20px;
+    margin-right:40px;
+    
+}
+.upper-part{
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(68, 38, 3);
+    color:antiquewhite;
+}
+.nav-list{
+    margin-left: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    font-size: 20px;    
+    font-family: Arial, Helvetica, sans-serif;    margin-left: 20px;
+    text-decoration: underline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: chocolate;
+}
+.banner-img{
+    width: 400px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+    align-items: center;
+    background-color:rgb(68, 38, 3);
+    color: white;
+    font-size: 20px;
+
+}
+.button{
+    padding: 5px;
+    background-color: chocolate;
+    color: rgb(226, 168, 97);
+    border-radius: 5px;
+}
+.button:hover{
+    color: rgb(135, 42, 8);
 }
