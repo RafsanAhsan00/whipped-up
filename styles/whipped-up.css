@@ -85,9 +85,96 @@
     border-radius: 50px;
     margin: 0px 200px;
     background-color:rgb(68, 38, 3);
-    color: white;
+    color: rgb(228, 192, 33);
 }
 .about-text{
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    
+}
+.items-heading{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: rgb(228, 192, 33);
+}
+.cake-img{
+    width: 200px;
+    height: 280px;
+    border-radius: 30px;
+}
+ .cakes{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(200, 148, 79);
+    color: white;
+ }
+ .pastry-img{
+    width: 200px;
+    height: 280px;
+    border-radius: 30px;
+ }
+ .pastry{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(200, 148, 79);
+    color: white;
+ }
+ .cupcakes-img{
+    width: 200px;
+    
+    height: 280px;
+    border-radius: 30px;
+ }
+ .cupcakes{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(200, 148, 79);
+    color: white;
+ }
+ .menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    
+    
+ }
+ .menu-heading{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0px;
+ }
+ .third-sec{
+    background-color:rgb(68, 38, 3);
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+ }
+ .f1-img{
+    width: 150px;
+ }
+ .footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+    height: 400px;
+    background-color:rgb(68, 38, 3); 
+    color: white;
+    
+ }
+.f-head{
+    padding-bottom: 15px;
+    
 }
