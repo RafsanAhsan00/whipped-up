@@ -162,19 +162,27 @@
     width: 150px;
  }
  .footer-container{
+    padding-top: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    border: 10px solid black;
-    border-radius: 60px;
-    margin: 20px;
-    height: 400px;
-    background-color:rgb(68, 38, 3); 
-    color: white;
-    
+       
  }
 .f-head{
     padding-bottom: 15px;
     
 }
+.last-part{
+    height: 400px;
+    background-color:rgb(68, 38, 3); 
+    color: white;
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+}
+.copy{
+    text-align: center;
+    padding-top: 80px;
+}
+
