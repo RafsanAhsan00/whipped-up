@@ -45,17 +45,49 @@
     border-radius: 60px;
     margin: 20px;
     align-items: center;
-    background-color:rgb(68, 38, 3);
+    background-color:rgb(68, 38, 3); 
     color: white;
     font-size: 20px;
 
 }
 .button{
-    padding: 5px;
+    padding: 5px 5px;
     background-color: chocolate;
     color: rgb(226, 168, 97);
+    border: none;
     border-radius: 5px;
 }
 .button:hover{
     color: rgb(135, 42, 8);
+}
+.about-img{
+    width: 250px;
+}
+.div-container{
+    border: 10px solid black;
+    border-radius: 60px;
+    margin: 20px;
+    background-color:rgb(68, 38, 3); 
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+
+}
+.title-container{
+    padding-top: 30px;
+}
+.title{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 0px 200px;
+    background-color:rgb(68, 38, 3);
+    color: white;
+}
+.about-text{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
